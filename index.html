@@ -3,148 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pieterjan Dubois | Software Engineer</title>
+    <title>Motivation Letter - Pieterjan Dubois</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; }
-        .gradient-text {
-            background: linear-gradient(90deg, #2563eb, #7c3aed);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+        @media screen {
+            body {
+                background-color: #e5e7eb;
+                display: flex;
+                justify-content: center;
+                padding: 40px 0;
+            }
+            .a4-page {
+                width: 210mm;
+                min-height: 297mm;
+                padding: 25mm 25mm;
+                background: white;
+                box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            }
         }
+
+        @media print {
+            body { background: none; margin: 0; }
+            .a4-page { 
+                width: 210mm; 
+                height: 297mm; 
+                padding: 20mm; 
+                margin: 0; 
+                box-shadow: none; 
+            }
+            .no-print { display: none; }
+        }
+
+        body { font-family: 'Inter', sans-serif; color: #1f2937; }
+        p { margin-bottom: 1.25rem; line-height: 1.6; text-align: justify; }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800 leading-relaxed">
+<body>
 
-    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
-        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
-            <span class="font-bold text-xl tracking-tight gradient-text">PD.</span>
-            <div class="space-x-6 text-sm font-medium">
-                <a href="mailto:pieterjan.dubois@hotmail.com" class="hover:text-blue-600 transition">Contact</a>
-                <a href="tel:+32471762013" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Hire Me</a>
+    <button onclick="window.print()" class="no-print fixed top-6 right-6 bg-blue-600 text-white px-5 py-2 rounded-full font-semibold shadow-lg hover:bg-blue-700 transition">
+        Download PDF
+    </button>
+
+    <div class="a4-page">
+        <div class="text-[11pt]">
+            
+            <p>
+                [cite_start]I am writing to apply for a junior-to medior role in either Devops, software engineering or system-oriented development with a preference for the last two[cite: 1]. 
+                [cite_start]I am eager to learn and get hands-on responsibility with real systems[cite: 2]. 
+                [cite_start]I am motivated to grow as an engineer and gain professional experience[cite: 3].
+            </p>
+
+            <p>
+                [cite_start]My academic path started out in marketing, despite graduating I quickly realized my interests and values align more with building than selling[cite: 4]. 
+                [cite_start]Programming always felt magical to me and it only made sense after graduating to pursue informatics & software engineering[cite: 5]. 
+                [cite_start]The combination of problem solving, experimenting and transforming ideas into tangible reality drives me to keep improving[cite: 6].
+            </p>
+
+            <p>
+                [cite_start]During my final year on my internship at KU Leuven, I was essentially taken on as the only developer working on a time sensitive and important project[cite: 7]. 
+                [cite_start]I led the migration of a corrupted and expiring Google Cloud database to an internal KU Leuven environment with a hard timer[cite: 8]. 
+                [cite_start]I was also responsible of designing and developing the streamlining of software distribution for students across different hardware setups and implemented general code improvements and bug fixes I encountered along the way[cite: 9]. 
+                [cite_start]Many of these tasks were completely new for me but I managed to deliver on all of them exceeding the expectations of my supervisor[cite: 10]. 
+                [cite_start]This internship gave me confidence in my ability to problem-solve new problems and take on responsibility[cite: 11].
+            </p>
+
+            <p>
+                [cite_start]Finishing graduation, I had some questions about which direction to go and decided to invest time into deepening my technical skills[cite: 12]. 
+                [cite_start]I worked on personal projects involving scripts that interact with blockchains and (d)exchanges[cite: 13]. 
+                [cite_start]This improved my understanding of distributed systems, automation and real-world failure cases[cite: 14]. 
+                [cite_start]During this time I also explored machine learning concepts, completed Azure-focused courses and took on an agentic approach to development[cite: 15]. 
+                [cite_start]Using AI tools to increase my learning curve and delivery speed[cite: 16]. 
+                [cite_start]An approach I only see becoming more and more required as time goes on[cite: 17].
+            </p>
+
+            <p>
+                [cite_start]Alongside my personal projects, I worked as a shift leader at Hawaiian Pokébowl[cite: 18]. 
+                [cite_start]I created a "fun but serious" work environment and became a trusted person of contact for students their questions or uncertainties[cite: 19]. 
+                [cite_start]This experience improved my communications skills, sense of responsibility and ability to manage pressure[cite: 20]. 
+                [cite_start]Skills I try and bring into everything I do[cite: 21].
+            </p>
+
+            <p>
+                [cite_start]I am now ready to commit to a professional engineering role and gather professional experience[cite: 22]. 
+                [cite_start]My path may be somewhat unconventional but it's given me a strong sense of ownership, adaptability and intrinsic motivation to learn[cite: 23]. 
+                [cite_start]I am comfortable starting at a level the company seems appropriate, contributing where I can add value today and growing through hands-on experience[cite: 24].
+            </p>
+
+            <p>
+                [cite_start]I am eager for the opportunity to further discuss how I could contribute to your team[cite: 25].
+            </p>
+
+            <div class="mt-12">
+                <p class="mb-0 italic">Yours sincerely,</p>
+                [cite_start]<p class="font-bold text-lg mb-4 text-slate-900">Pieterjan Dubois [cite: 27]</p>
+                
+                <div class="text-sm text-slate-500 space-y-1">
+                    <div class="flex items-center gap-2">
+                        [cite_start]<span class="text-slate-400">Email:</span> pieterjan.dubois@hotmail.com [cite: 28]
+                    </div>
+                    <div class="flex items-center gap-2">
+                        [cite_start]<span class="text-slate-400">Phone:</span> +32 471 76 20 13 [cite: 29]
+                    </div>
+                    <div class="flex items-center gap-2">
+                        [cite_start]<span class="text-slate-400">Location:</span> Korbeek-Lo, Vlaams-Brabant [cite: 30]
+                    </div>
+                </div>
             </div>
+
         </div>
-    </nav>
-
-    <main class="max-w-4xl mx-auto px-6 py-12 md:py-20">
-        
-        <header class="mb-16">
-            <h1 class="text-5xl font-extrabold mb-4 tracking-tight text-slate-900">
-                Pieterjan Dubois [cite: 27]
-            </h1>
-            <p class="text-2xl text-slate-600 font-light">
-                Junior-to-Medior Software & Systems Engineer [cite: 1]
-            </p>
-            <div class="mt-6 flex flex-wrap gap-4 text-sm text-slate-500">
-                <span class="flex items-center">📍 Korbeek-Lo, Vlaams-Brabant [cite: 30]</span>
-                <span class="flex items-center underline">📧 pieterjan.dubois@hotmail.com [cite: 28]</span>
-            </div>
-        </header>
-
-        <section class="mb-16">
-            <h2 class="text-xs uppercase tracking-widest text-blue-600 font-bold mb-4">The Journey</h2>
-            <div class="grid md:grid-cols-5 gap-8">
-                <div class="md:col-span-3">
-                    <p class="text-lg mb-4">
-                        My path started in marketing, but I quickly realized my values align more with <strong>building than selling</strong>[cite: 4]. 
-                        Programming always felt magical to me, leading me to pursue informatics and software engineering[cite: 5].
-                    </p>
-                    <p class="text-slate-600">
-                        I am motivated to grow as an engineer and gain professional experience [cite: 3], driven by the combination of problem solving and transforming ideas into tangible reality[cite: 6].
-                    </p>
-                </div>
-                <div class="md:col-span-2 bg-blue-50 p-6 rounded-2xl border border-blue-100">
-                    <h3 class="font-semibold text-blue-900 mb-2">Technical Focus</h3>
-                    <ul class="text-sm space-y-2 text-blue-800">
-                        <li>• Software Engineering [cite: 1]</li>
-                        <li>• System-Oriented Dev [cite: 1]</li>
-                        <li>• DevOps [cite: 1]</li>
-                        <li>• Azure & Cloud Systems [cite: 15]</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section class="mb-16">
-            <h2 class="text-xs uppercase tracking-widest text-blue-600 font-bold mb-6">Key Experience</h2>
-            <div class="bg-white border border-slate-200 p-8 rounded-3xl shadow-sm">
-                <div class="flex justify-between items-start mb-4">
-                    <div>
-                        <h3 class="text-xl font-bold">Internship @ KU Leuven</h3>
-                        <p class="text-blue-600 font-medium">Lead Developer (Project-based)</p>
-                    </div>
-                    <span class="text-sm text-slate-400 bg-slate-100 px-3 py-1 rounded-full italic text-[11px] font-bold">FINAL YEAR [cite: 7]</span>
-                </div>
-                <p class="mb-6 text-slate-700">
-                    I was the sole developer on a time-sensitive project, managing critical infrastructure and distribution[cite: 7].
-                </p>
-                <div class="grid sm:grid-cols-2 gap-6">
-                    <div class="border-l-2 border-blue-500 pl-4">
-                        <h4 class="font-semibold text-sm mb-1 uppercase text-slate-500">Cloud Migration</h4>
-                        <p class="text-sm">Led the migration of a corrupted Google Cloud database to an internal environment under a hard timer[cite: 8].</p>
-                    </div>
-                    <div class="border-l-2 border-blue-500 pl-4">
-                        <h4 class="font-semibold text-sm mb-1 uppercase text-slate-500">Distribution</h4>
-                        <p class="text-sm">Designed and developed software distribution streamlining for students across diverse hardware setups[cite: 9].</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="mb-16 grid md:grid-cols-2 gap-12">
-            <div>
-                <h2 class="text-xs uppercase tracking-widest text-blue-600 font-bold mb-4">Technical Deep-Dive</h2>
-                <p class="text-sm text-slate-600 mb-4">
-                    Invested time in deepening skills through personal projects and advanced concepts[cite: 12]:
-                </p>
-                <ul class="space-y-3">
-                    <li class="flex items-start gap-3">
-                        <span class="text-blue-500 font-bold">01</span>
-                        <span class="text-sm"><strong>Distributed Systems:</strong> Blockchain & (d)exchange interaction scripts[cite: 13, 14].</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-blue-500 font-bold">02</span>
-                        <span class="text-sm"><strong>Azure:</strong> Completed Azure-focused courses for cloud competency[cite: 15].</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-blue-500 font-bold">03</span>
-                        <span class="text-sm"><strong>Agentic Dev:</strong> Leveraging AI tools to increase learning curves and delivery speed.</span>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h2 class="text-xs uppercase tracking-widest text-blue-600 font-bold mb-4">Soft Skills & Leadership</h2>
-                <div class="bg-slate-900 text-white p-6 rounded-2xl">
-                    <p class="text-sm text-slate-400 mb-3 italic underline decoration-blue-500">Shift Leader @ Hawaiian Pokébowl [cite: 18]</p>
-                    <p class="text-sm leading-relaxed mb-4">
-                        Managed a "fun but serious" work environment, becoming a trusted contact for student uncertainties[cite: 19].
-                    </p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="text-[10px] bg-slate-800 border border-slate-700 px-2 py-1 rounded">COMMUNICATION [cite: 20]</span>
-                        <span class="text-[10px] bg-slate-800 border border-slate-700 px-2 py-1 rounded">PRESSURE MANAGEMENT [cite: 20]</span>
-                        <span class="text-[10px] bg-slate-800 border border-slate-700 px-2 py-1 rounded">OWNERSHIP [cite: 23]</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer class="text-center bg-white border border-slate-200 p-10 rounded-3xl">
-            <h2 class="text-2xl font-bold mb-4">Ready for the next challenge[cite: 22].</h2>
-            <p class="text-slate-500 mb-8 max-w-lg mx-auto">
-                I am eager for the opportunity to discuss how I could contribute to your team. 
-                I am comfortable starting at any appropriate level and growing through hands-on experience[cite: 24, 25].
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="mailto:pieterjan.dubois@hotmail.com" class="bg-blue-600 text-white px-8 py-3 rounded-xl font-bold hover:shadow-lg hover:shadow-blue-200 transition">
-                    Email Pieterjan [cite: 28]
-                </a>
-                <a href="tel:+32471762013" class="bg-white border border-slate-300 text-slate-700 px-8 py-3 rounded-xl font-bold hover:bg-slate-50 transition">
-                    Call: +32 471 76 20 13 [cite: 29]
-                </a>
-            </div>
-        </footer>
-    </main>
+    </div>
 
 </body>
 </html>
